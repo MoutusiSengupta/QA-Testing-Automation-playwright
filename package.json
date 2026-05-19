@@ -1,0 +1,23 @@
+{
+  "name": "qa-testing-automation-playwright",
+  "version": "1.0.0",
+  "description": "Frontend testing of an website using playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoutusiSengupta/QA-Testing-Automation-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MoutusiSengupta/QA-Testing-Automation-playwright/issues"
+  },
+  "homepage": "https://github.com/MoutusiSengupta/QA-Testing-Automation-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
