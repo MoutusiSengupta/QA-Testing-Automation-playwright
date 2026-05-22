@@ -1,12 +1,15 @@
 {
   "name": "qa-testing-automation-playwright",
   "version": "1.0.0",
-  "description": "Frontend testing of an website using playwright",
+  "description": "Frontend testing for saucedemo using playwright",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MoutusiSengupta/QA-Testing-Automation-playwright.git"
+    "url": "git+https://github.com/MoutusiSengupta/QA-Testing-Automation-playwright.git",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
